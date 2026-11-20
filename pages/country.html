@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ficha detalhada do país e seleção no Football Atlas: história, títulos, principais competições e jogadores históricos.">
+    <meta name="theme-color" content="#06172a">
+
+    <title>País | Football Atlas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+    <script src="../data.js" defer></script>
+    <script src="../main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="../index.html" aria-label="Football Atlas — início">
+            <span class="brand-mark" aria-hidden="true">
+                <svg viewBox="0 0 64 64" fill="none">
+                    <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="3"/>
+                    <circle cx="32" cy="32" r="21" stroke="currentColor" stroke-width="1.5" opacity=".7"/>
+                    <path d="M32 18 42 25 38 37 26 37 22 25 32 18Z" fill="currentColor"/>
+                    <path d="M32 18v-8M42 25l8-3M38 37l5 8M26 37l-5 8M22 25l-8-3M10 32h9M45 45l7 6M19 45l-7 6M52 22l3-7M12 22l-3-7"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </span>
+
+            <span class="brand-name">FOOTBALL <strong>ATLAS</strong></span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle" type="button"
+                aria-label="Abrir menu" aria-controls="navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation" id="navigation" aria-label="Menu principal">
+            <a class="nav-link" href="../index.html">Início</a>
+            <a class="nav-link is-current" href="countries.html" aria-current="page">Países</a>
+            <a class="nav-link" href="clubs.html">Clubes</a>
+            <a class="nav-link" href="competitions.html">Competições</a>
+            <a class="nav-link" href="stadiums.html">Estádios</a>
+            <a class="nav-link" href="history.html">História</a>
+            <a class="nav-link" href="curiosities.html">Curiosidades</a>
+            <a class="nav-link" href="quizzes.html">Quizzes</a>
+        </nav>
+    </header>
+
+    <main class="section">
+        <div id="country-detail" aria-live="polite"></div>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="../index.html">
+            FOOTBALL <strong>ATLAS</strong>
+        </a>
+
+        <span class="footer-divider" aria-hidden="true"></span>
+
+        <p class="footer-slogan">DISCOVER THE WORLD OF FOOTBALL</p>
+
+        <p class="copyright">
+            © 2026 Football Atlas. Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+</html>

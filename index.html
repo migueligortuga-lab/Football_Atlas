@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora o mundo do futebol com o Football Atlas: países, clubes, competições, estádios, história e quizzes.">
+    <meta name="theme-color" content="#06172a">
+
+    <title>Football Atlas | Discover the World of Football</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Football Atlas — início">
+            <span class="brand-mark" aria-hidden="true">
+                <svg viewBox="0 0 64 64" fill="none">
+                    <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="3"/>
+                    <circle cx="32" cy="32" r="21" stroke="currentColor" stroke-width="1.5" opacity=".7"/>
+                    <path d="M32 18 42 25 38 37 26 37 22 25 32 18Z" fill="currentColor"/>
+                    <path d="M32 18v-8M42 25l8-3M38 37l5 8M26 37l-5 8M22 25l-8-3M10 32h9M45 45l7 6M19 45l-7 6M52 22l3-7M12 22l-3-7"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </span>
+
+            <span class="brand-name">FOOTBALL <strong>ATLAS</strong></span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle" type="button"
+                aria-label="Abrir menu" aria-controls="navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation" id="navigation" aria-label="Menu principal">
+            <a class="nav-link is-current" href="index.html" aria-current="page">Início</a>
+            <a class="nav-link" href="pages/countries.html">Países</a>
+            <a class="nav-link" href="pages/clubs.html">Clubes</a>
+            <a class="nav-link" href="pages/competitions.html">Competições</a>
+            <a class="nav-link" href="pages/stadiums.html">Estádios</a>
+            <a class="nav-link" href="pages/history.html">História</a>
+            <a class="nav-link" href="pages/curiosities.html">Curiosidades</a>
+            <a class="nav-link" href="pages/quizzes.html">Quizzes</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-shade"></div>
+
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span>THE WORLD OF FOOTBALL</span>
+                    <i></i>
+                </div>
+
+                <h1 id="hero-title">
+                    Discover the world<br>
+                    of <span>football.</span>
+                </h1>
+
+                <p>
+                    Descobre os maiores clubes, jogadores,<br class="desktop-break">
+                    competições e histórias do futebol mundial.
+                </p>
+
+                <a class="primary-button" href="#explore">
+                    <span>EXPLORAR FOOTBALL ATLAS</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M5 12h14M13 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <section class="explore section" id="explore" aria-labelledby="explore-title">
+            <div class="section-heading">
+                <div class="eyebrow centered">
+                    <i></i>
+                    <span>EXPLORE</span>
+                    <i></i>
+                </div>
+
+                <h2 id="explore-title">Explore o universo do futebol</h2>
+                <p>Todo o futebol num só lugar.</p>
+            </div>
+
+            <div class="category-grid">
+                <a href="pages/countries.html" class="category-card card-countries">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 64 64">
+                            <circle cx="32" cy="32" r="25"/>
+                            <path d="M7 32h50M32 7c9 9 13 17 13 25S41 48 32 57M32 7C23 16 19 24 19 32s4 16 13 25M12 18h40M12 46h40"/>
+                        </svg>
+                    </span>
+
+                    <span class="card-copy">
+                        <strong>Países</strong>
+                        <small>Descobre o futebol de cada país.</small>
+                    </span>
+
+                    <span class="card-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4 12h15M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <a href="pages/clubs.html" class="category-card card-clubs">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 64 64">
+                            <path d="M32 5 55 10v19c0 15-9 24-23 30C18 53 9 44 9 29V10L32 5Z"/>
+                            <path d="M32 12 48 16v13c0 10-6 17-16 22-10-5-16-12-16-22V16l16-4Z"/>
+                            <path d="m37 20-12 15 8 1-6 9 15-17-8-1 3-7Z"/>
+                        </svg>
+                    </span>
+
+                    <span class="card-copy">
+                        <strong>Clubes</strong>
+                        <small>Conhece os grandes clubes<br class="desktop-break"> do mundo.</small>
+                    </span>
+
+                    <span class="card-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4 12h15M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <a href="pages/competitions.html" class="category-card card-competitions">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 64 64">
+                            <path d="M20 9h24v11c0 13-5 21-12 21s-12-8-12-21V9Z"/>
+                            <path d="M20 15H8v5c0 9 6 14 15 14M44 15h12v5c0 9-6 14-15 14M32 41v10M22 55h20M27 51h10"/>
+                        </svg>
+                    </span>
+
+                    <span class="card-copy">
+                        <strong>Competições</strong>
+                        <small>Explora os grandes torneios.</small>
+                    </span>
+
+                    <span class="card-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4 12h15M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <a href="pages/stadiums.html" class="category-card card-stadiums">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 64 64">
+                            <path d="M7 25 32 12l25 13v25H7V25Z"/>
+                            <path d="M13 28h38M13 35h38M13 42h38M19 21v29M28 16v34M37 16v34M46 21v29"/>
+                            <path d="M5 50h54M24 12V6h16v6"/>
+                        </svg>
+                    </span>
+
+                    <span class="card-copy">
+                        <strong>Estádios</strong>
+                        <small>Visita os grandes palcos<br class="desktop-break"> do futebol.</small>
+                    </span>
+
+                    <span class="card-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4 12h15M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <a href="pages/history.html" class="category-card card-history">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 64 64">
+                            <path d="M32 15c-7-7-16-8-25-5v42c9-3 18-2 25 5 7-7 16-8 25-5V10c-9-3-18-2-25 5Z"/>
+                            <path d="M32 15v42"/>
+                        </svg>
+                    </span>
+
+                    <span class="card-copy">
+                        <strong>História</strong>
+                        <small>Revive os momentos históricos.</small>
+                    </span>
+
+                    <span class="card-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4 12h15M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <a href="pages/quizzes.html" class="category-card card-quizzes">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 64 64">
+                            <path d="M32 10c-6-8-18-4-18 5-9 0-13 11-7 17-6 7-1 18 8 18 2 9 12 12 17 5V10Z"/>
+                            <path d="M32 10c6-8 18-4 18 5 9 0 13 11 7 17 6 7 1 18-8 18-2 9-12 12-17 5V10Z"/>
+                            <path d="M20 20c5 0 7 4 5 8M12 31h11M20 43c5 0 7-4 5-8M44 20c-5 0-7 4-5 8M52 31H41M44 43c-5 0-7-4-5-8"/>
+                        </svg>
+                    </span>
+
+                    <span class="card-copy">
+                        <strong>Quizzes</strong>
+                        <small>Testa os teus conhecimentos.</small>
+                    </span>
+
+                    <span class="card-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4 12h15M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="index.html">
+            FOOTBALL <strong>ATLAS</strong>
+        </a>
+
+        <span class="footer-divider" aria-hidden="true"></span>
+
+        <p class="footer-slogan">DISCOVER THE WORLD OF FOOTBALL</p>
+
+        <p class="copyright">
+            © 2026 Football Atlas. Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+</html>
