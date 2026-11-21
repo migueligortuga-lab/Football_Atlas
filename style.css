@@ -1366,3 +1366,103 @@ a {
 .squad-player-details p:last-child {
     margin-bottom: 0;
 }
+
+/* COMPETIÇÕES — VENCEDORES E XI VENCEDOR */
+
+.winner-edition-card {
+    margin-bottom: 14px;
+}
+
+.winner-edition-card:last-child {
+    margin-bottom: 0;
+}
+
+.winner-edition-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.winner-edition-row > div {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: var(--navy);
+}
+
+.toggle-champion-xi-btn {
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1.5px solid rgba(6, 23, 42, 0.16);
+    background: var(--white);
+    color: var(--navy);
+    font-family: var(--font);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.toggle-champion-xi-btn:hover {
+    border-color: var(--navy);
+    transform: translateY(-1px);
+}
+
+.toggle-champion-xi-btn[aria-expanded="true"] {
+    background: var(--navy);
+    border-color: var(--navy);
+    color: var(--gold);
+}
+
+.champion-xi-panel {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(6, 23, 42, 0.1);
+}
+
+.champion-xi-panel[hidden] {
+    display: none;
+}
+
+.champion-xi-panel h4 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--navy);
+}
+
+.champion-xi-panel .squad-item {
+    width: 100%;
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: default;
+}
+
+.champion-xi-panel .squad-number {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--navy);
+    background: rgba(228, 180, 79, 0.22);
+    padding: 4px 8px;
+    border-radius: 999px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+    .winner-edition-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .toggle-champion-xi-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

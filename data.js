@@ -1737,5 +1737,1443 @@ const FOOTBALL_ATLAS_DATA = {
                 "A Academia Cristiano Ronaldo em Alcochete formou jogadores como Luís Figo, Cristiano Ronaldo, Paulo Futre e Nani."
             ]
         }
+    ],
+    competitions: [
+        /* COMPETIÇÕES DE CLUBES — INTERNACIONAIS */
+        {
+            id: "champions-league",
+            name: "UEFA Champions League",
+            category: "Clubes",
+            confederation: "UEFA",
+            crest: "assets/logos/competitions/champions-league.png",
+            summary: "A principal competição europeia de clubes organizada pela UEFA.",
+            trophyHistory: "O troféu atual, conhecido como 'A Orelhuda', foi desenhado pelo joalheiro suíço Jürg Stadelmann e introduzido na época 1966–67, substituindo a taça original oferecida pelo jornal L'Équipe.",
+            lastEditionParticipants: [
+    "Arsenal",
+    "Bayern Munich",
+    "Liverpool",
+    "Tottenham Hotspur",
+    "Barcelona",
+    "Chelsea",
+    "Sporting CP",
+    "Manchester City",
+    "Real Madrid",
+    "Inter Milan",
+    "Paris Saint-Germain",
+    "Newcastle United",
+    "Juventus",
+    "Atlético Madrid",
+    "Atalanta",
+    "Bayer Leverkusen",
+    "Borussia Dortmund",
+    "Olympiacos",
+    "Club Brugge",
+    "Galatasaray",
+    "AS Monaco",
+    "Qarabağ",
+    "Bodø/Glimt",
+    "Benfica",
+    "Olympique de Marseille",
+    "Pafos",
+    "Union Saint-Gilloise",
+    "PSV Eindhoven",
+    "Athletic Bilbao",
+    "Napoli",
+    "FC Copenhagen",
+    "Ajax",
+    "Eintracht Frankfurt",
+    "Slavia Prague",
+    "Villarreal",
+    "Kairat"
+],
+            winners: [
+                {
+    year: "2025–26",
+    champion: "Paris Saint-Germain",
+    runnerUp: "Arsenal",
+    winningXI: [
+        { number: 39, name: "Matvey Safonov", position: "Guarda-redes" },
+        { number: 2, name: "Achraf Hakimi", position: "Defesa" },
+        { number: 5, name: "Marquinhos", position: "Defesa" },
+        { number: 51, name: "Willian Pacho", position: "Defesa" },
+        { number: 25, name: "Nuno Mendes", position: "Defesa" },
+        { number: 8, name: "Fabián Ruiz", position: "Médio" },
+        { number: 17, name: "Vitinha", position: "Médio" },
+        { number: 87, name: "João Neves", position: "Médio" },
+        { number: 14, name: "Désiré Doué", position: "Avançado" },
+        { number: 7, name: "Khvicha Kvaratskhelia", position: "Avançado" },
+        { number: 10, name: "Ousmane Dembélé", position: "Avançado" }
+    ]
+},
+{
+    year: "2024–25",
+    champion: "Paris Saint-Germain",
+    runnerUp: "Inter Milan",
+    winningXI: [
+        { number: 1, name: "Gianluigi Donnarumma", position: "Guarda-redes" },
+        { number: 2, name: "Achraf Hakimi", position: "Defesa" },
+        { number: 5, name: "Marquinhos", position: "Defesa" },
+        { number: 51, name: "Willian Pacho", position: "Defesa" },
+        { number: 25, name: "Nuno Mendes", position: "Defesa" },
+        { number: 87, name: "João Neves", position: "Médio" },
+        { number: 17, name: "Vitinha", position: "Médio" },
+        { number: 8, name: "Fabián Ruiz", position: "Médio" },
+        { number: 14, name: "Désiré Doué", position: "Avançado" },
+        { number: 10, name: "Ousmane Dembélé", position: "Avançado" },
+        { number: 7, name: "Khvicha Kvaratskhelia", position: "Avançado" }
+    ]
+},
+{
+    year: "2023–24",
+    champion: "Real Madrid",
+    runnerUp: "Borussia Dortmund",
+    winningXI: [
+        { number: 1, name: "Thibaut Courtois", position: "Guarda-redes" },
+        { number: 2, name: "Dani Carvajal", position: "Defesa" },
+        { number: 22, name: "Antonio Rüdiger", position: "Defesa" },
+        { number: 6, name: "Nacho Fernández", position: "Defesa" },
+        { number: 23, name: "Ferland Mendy", position: "Defesa" },
+        { number: 15, name: "Federico Valverde", position: "Médio" },
+        { number: 12, name: "Eduardo Camavinga", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 5, name: "Jude Bellingham", position: "Médio" },
+        { number: 11, name: "Rodrygo", position: "Avançado" },
+        { number: 7, name: "Vinícius Júnior", position: "Avançado" }
+    ]
+},
+{
+    year: "2022–23",
+    champion: "Manchester City",
+    runnerUp: "Inter Milan",
+    winningXI: [
+        { number: 31, name: "Ederson", position: "Guarda-redes" },
+        { number: 25, name: "Manuel Akanji", position: "Defesa" },
+        { number: 3, name: "Rúben Dias", position: "Defesa" },
+        { number: 6, name: "Nathan Aké", position: "Defesa" },
+        { number: 5, name: "John Stones", position: "Médio" },
+        { number: 16, name: "Rodri", position: "Médio" },
+        { number: 8, name: "İlkay Gündoğan", position: "Médio" },
+        { number: 17, name: "Kevin De Bruyne", position: "Médio" },
+        { number: 20, name: "Bernardo Silva", position: "Médio" },
+        { number: 10, name: "Jack Grealish", position: "Avançado" },
+        { number: 9, name: "Erling Haaland", position: "Avançado" }
+    ]
+},
+{
+    year: "2021–22",
+    champion: "Real Madrid",
+    runnerUp: "Liverpool",
+    winningXI: [
+        { number: 1, name: "Thibaut Courtois", position: "Guarda-redes" },
+        { number: 2, name: "Dani Carvajal", position: "Defesa" },
+        { number: 3, name: "Éder Militão", position: "Defesa" },
+        { number: 4, name: "David Alaba", position: "Defesa" },
+        { number: 23, name: "Ferland Mendy", position: "Defesa" },
+        { number: 10, name: "Luka Modrić", position: "Médio" },
+        { number: 14, name: "Casemiro", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 15, name: "Federico Valverde", position: "Avançado" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 20, name: "Vinícius Júnior", position: "Avançado" }
+    ]
+},
+{
+    year: "2020–21",
+    champion: "Chelsea",
+    runnerUp: "Manchester City",
+    winningXI: [
+        { number: 16, name: "Édouard Mendy", position: "Guarda-redes" },
+        { number: 28, name: "César Azpilicueta", position: "Defesa" },
+        { number: 6, name: "Thiago Silva", position: "Defesa" },
+        { number: 2, name: "Antonio Rüdiger", position: "Defesa" },
+        { number: 24, name: "Reece James", position: "Médio" },
+        { number: 7, name: "N'Golo Kanté", position: "Médio" },
+        { number: 5, name: "Jorginho", position: "Médio" },
+        { number: 21, name: "Ben Chilwell", position: "Médio" },
+        { number: 19, name: "Mason Mount", position: "Médio" },
+        { number: 29, name: "Kai Havertz", position: "Avançado" },
+        { number: 11, name: "Timo Werner", position: "Avançado" }
+    ]
+},
+{
+    year: "2019–20",
+    champion: "Bayern Munich",
+    runnerUp: "Paris Saint-Germain",
+    winningXI: [
+        { number: 1, name: "Manuel Neuer", position: "Guarda-redes" },
+        { number: 32, name: "Joshua Kimmich", position: "Defesa" },
+        { number: 17, name: "Jérôme Boateng", position: "Defesa" },
+        { number: 27, name: "David Alaba", position: "Defesa" },
+        { number: 19, name: "Alphonso Davies", position: "Defesa" },
+        { number: 18, name: "Leon Goretzka", position: "Médio" },
+        { number: 6, name: "Thiago Alcântara", position: "Médio" },
+        { number: 22, name: "Serge Gnabry", position: "Avançado" },
+        { number: 25, name: "Thomas Müller", position: "Médio" },
+        { number: 29, name: "Kingsley Coman", position: "Avançado" },
+        { number: 9, name: "Robert Lewandowski", position: "Avançado" }
+    ]
+},
+{
+    year: "2018–19",
+    champion: "Liverpool",
+    runnerUp: "Tottenham Hotspur",
+    winningXI: [
+        { number: 13, name: "Alisson Becker", position: "Guarda-redes" },
+        { number: 66, name: "Trent Alexander-Arnold", position: "Defesa" },
+        { number: 32, name: "Joël Matip", position: "Defesa" },
+        { number: 4, name: "Virgil van Dijk", position: "Defesa" },
+        { number: 26, name: "Andrew Robertson", position: "Defesa" },
+        { number: 14, name: "Jordan Henderson", position: "Médio" },
+        { number: 3, name: "Fabinho", position: "Médio" },
+        { number: 5, name: "Georginio Wijnaldum", position: "Médio" },
+        { number: 11, name: "Mohamed Salah", position: "Avançado" },
+        { number: 9, name: "Roberto Firmino", position: "Avançado" },
+        { number: 10, name: "Sadio Mané", position: "Avançado" }
+    ]
+},
+{
+    year: "2017–18",
+    champion: "Real Madrid",
+    runnerUp: "Liverpool",
+    winningXI: [
+        { number: 1, name: "Keylor Navas", position: "Guarda-redes" },
+        { number: 2, name: "Dani Carvajal", position: "Defesa" },
+        { number: 5, name: "Raphaël Varane", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 12, name: "Marcelo", position: "Defesa" },
+        { number: 10, name: "Luka Modrić", position: "Médio" },
+        { number: 14, name: "Casemiro", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 22, name: "Isco", position: "Médio" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Avançado" }
+    ]
+},
+{
+    year: "2016–17",
+    champion: "Real Madrid",
+    runnerUp: "Juventus",
+    winningXI: [
+        { number: 1, name: "Keylor Navas", position: "Guarda-redes" },
+        { number: 2, name: "Dani Carvajal", position: "Defesa" },
+        { number: 5, name: "Raphaël Varane", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 12, name: "Marcelo", position: "Defesa" },
+        { number: 10, name: "Luka Modrić", position: "Médio" },
+        { number: 14, name: "Casemiro", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 22, name: "Isco", position: "Médio" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Avançado" }
+    ]
+},
+{
+    year: "2015–16",
+    champion: "Real Madrid",
+    runnerUp: "Atlético Madrid",
+    winningXI: [
+        { number: 1, name: "Keylor Navas", position: "Guarda-redes" },
+        { number: 15, name: "Dani Carvajal", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 3, name: "Pepe", position: "Defesa" },
+        { number: 12, name: "Marcelo", position: "Defesa" },
+        { number: 19, name: "Luka Modrić", position: "Médio" },
+        { number: 14, name: "Casemiro", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 11, name: "Gareth Bale", position: "Avançado" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Avançado" }
+    ]
+},
+{
+    year: "2014–15",
+    champion: "Barcelona",
+    runnerUp: "Juventus",
+    winningXI: [
+        { number: 1, name: "Marc-André ter Stegen", position: "Guarda-redes" },
+        { number: 22, name: "Dani Alves", position: "Defesa" },
+        { number: 3, name: "Gerard Piqué", position: "Defesa" },
+        { number: 14, name: "Javier Mascherano", position: "Defesa" },
+        { number: 18, name: "Jordi Alba", position: "Defesa" },
+        { number: 4, name: "Ivan Rakitić", position: "Médio" },
+        { number: 5, name: "Sergio Busquets", position: "Médio" },
+        { number: 8, name: "Andrés Iniesta", position: "Médio" },
+        { number: 10, name: "Lionel Messi", position: "Avançado" },
+        { number: 9, name: "Luis Suárez", position: "Avançado" },
+        { number: 11, name: "Neymar", position: "Avançado" }
+    ]
+},
+{
+    year: "2013–14",
+    champion: "Real Madrid",
+    runnerUp: "Atlético Madrid",
+    winningXI: [
+        { number: 25, name: "Iker Casillas", position: "Guarda-redes" },
+        { number: 15, name: "Dani Carvajal", position: "Defesa" },
+        { number: 2, name: "Raphaël Varane", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 5, name: "Fábio Coentrão", position: "Defesa" },
+        { number: 19, name: "Luka Modrić", position: "Médio" },
+        { number: 6, name: "Sami Khedira", position: "Médio" },
+        { number: 22, name: "Ángel Di María", position: "Médio" },
+        { number: 11, name: "Gareth Bale", position: "Avançado" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Avançado" }
+    ]
+},
+{
+    year: "2012–13",
+    champion: "Bayern Munich",
+    runnerUp: "Borussia Dortmund",
+    winningXI: [
+        { number: 1, name: "Manuel Neuer", position: "Guarda-redes" },
+        { number: 21, name: "Philipp Lahm", position: "Defesa" },
+        { number: 17, name: "Jérôme Boateng", position: "Defesa" },
+        { number: 4, name: "Dante", position: "Defesa" },
+        { number: 27, name: "David Alaba", position: "Defesa" },
+        { number: 8, name: "Javi Martínez", position: "Médio" },
+        { number: 31, name: "Bastian Schweinsteiger", position: "Médio" },
+        { number: 10, name: "Arjen Robben", position: "Avançado" },
+        { number: 25, name: "Thomas Müller", position: "Médio" },
+        { number: 7, name: "Franck Ribéry", position: "Avançado" },
+        { number: 9, name: "Mario Mandžukić", position: "Avançado" }
+    ]
+},
+{
+    year: "2011–12",
+    champion: "Chelsea",
+    runnerUp: "Bayern Munich",
+    winningXI: [
+        { number: 1, name: "Petr Čech", position: "Guarda-redes" },
+        { number: 17, name: "José Bosingwa", position: "Defesa" },
+        { number: 24, name: "Gary Cahill", position: "Defesa" },
+        { number: 4, name: "David Luiz", position: "Defesa" },
+        { number: 3, name: "Ashley Cole", position: "Defesa" },
+        { number: 12, name: "John Obi Mikel", position: "Médio" },
+        { number: 8, name: "Frank Lampard", position: "Médio" },
+        { number: 21, name: "Salomon Kalou", position: "Avançado" },
+        { number: 10, name: "Juan Mata", position: "Médio" },
+        { number: 34, name: "Ryan Bertrand", position: "Avançado" },
+        { number: 11, name: "Didier Drogba", position: "Avançado" }
+    ]
+},
+{
+    year: "2010–11",
+    champion: "Barcelona",
+    runnerUp: "Manchester United",
+    winningXI: [
+        { number: 1, name: "Víctor Valdés", position: "Guarda-redes" },
+        { number: 2, name: "Dani Alves", position: "Defesa" },
+        { number: 14, name: "Javier Mascherano", position: "Defesa" },
+        { number: 3, name: "Gerard Piqué", position: "Defesa" },
+        { number: 22, name: "Éric Abidal", position: "Defesa" },
+        { number: 16, name: "Sergio Busquets", position: "Médio" },
+        { number: 6, name: "Xavi Hernández", position: "Médio" },
+        { number: 8, name: "Andrés Iniesta", position: "Médio" },
+        { number: 17, name: "Pedro Rodríguez", position: "Avançado" },
+        { number: 10, name: "Lionel Messi", position: "Avançado" },
+        { number: 7, name: "David Villa", position: "Avançado" }
+    ]
+},
+{
+    year: "2009–10",
+    champion: "Inter Milan",
+    runnerUp: "Bayern Munich",
+    winningXI: [
+        { number: 12, name: "Júlio César", position: "Guarda-redes" },
+        { number: 13, name: "Maicon", position: "Defesa" },
+        { number: 6, name: "Lúcio", position: "Defesa" },
+        { number: 25, name: "Walter Samuel", position: "Defesa" },
+        { number: 26, name: "Cristian Chivu", position: "Defesa" },
+        { number: 4, name: "Javier Zanetti", position: "Médio" },
+        { number: 19, name: "Esteban Cambiasso", position: "Médio" },
+        { number: 27, name: "Goran Pandev", position: "Avançado" },
+        { number: 10, name: "Wesley Sneijder", position: "Médio" },
+        { number: 9, name: "Samuel Eto'o", position: "Avançado" },
+        { number: 22, name: "Diego Milito", position: "Avançado" }
+    ]
+},
+{
+    year: "2008–09",
+    champion: "Barcelona",
+    runnerUp: "Manchester United",
+    winningXI: [
+        { number: 1, name: "Víctor Valdés", position: "Guarda-redes" },
+        { number: 5, name: "Carles Puyol", position: "Defesa" },
+        { number: 24, name: "Yaya Touré", position: "Defesa" },
+        { number: 3, name: "Gerard Piqué", position: "Defesa" },
+        { number: 16, name: "Sylvinho", position: "Defesa" },
+        { number: 28, name: "Sergio Busquets", position: "Médio" },
+        { number: 6, name: "Xavi Hernández", position: "Médio" },
+        { number: 8, name: "Andrés Iniesta", position: "Médio" },
+        { number: 10, name: "Lionel Messi", position: "Avançado" },
+        { number: 9, name: "Samuel Eto'o", position: "Avançado" },
+        { number: 14, name: "Thierry Henry", position: "Avançado" }
+    ]
+},
+{
+    year: "2007–08",
+    champion: "Manchester United",
+    runnerUp: "Chelsea",
+    winningXI: [
+        { number: 1, name: "Edwin van der Sar", position: "Guarda-redes" },
+        { number: 6, name: "Wes Brown", position: "Defesa" },
+        { number: 5, name: "Rio Ferdinand", position: "Defesa" },
+        { number: 15, name: "Nemanja Vidić", position: "Defesa" },
+        { number: 3, name: "Patrice Evra", position: "Defesa" },
+        { number: 4, name: "Owen Hargreaves", position: "Médio" },
+        { number: 16, name: "Michael Carrick", position: "Médio" },
+        { number: 18, name: "Paul Scholes", position: "Médio" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Médio" },
+        { number: 10, name: "Wayne Rooney", position: "Avançado" },
+        { number: 32, name: "Carlos Tévez", position: "Avançado" }
+    ]
+},
+{
+    year: "2006–07",
+    champion: "AC Milan",
+    runnerUp: "Liverpool",
+    winningXI: [
+        { number: 1, name: "Dida", position: "Guarda-redes" },
+        { number: 44, name: "Massimo Oddo", position: "Defesa" },
+        { number: 13, name: "Alessandro Nesta", position: "Defesa" },
+        { number: 3, name: "Paolo Maldini", position: "Defesa" },
+        { number: 18, name: "Marek Jankulovski", position: "Defesa" },
+        { number: 8, name: "Gennaro Gattuso", position: "Médio" },
+        { number: 21, name: "Andrea Pirlo", position: "Médio" },
+        { number: 23, name: "Massimo Ambrosini", position: "Médio" },
+        { number: 10, name: "Clarence Seedorf", position: "Médio" },
+        { number: 22, name: "Kaká", position: "Médio" },
+        { number: 9, name: "Filippo Inzaghi", position: "Avançado" }
+    ]
+},
+{
+    year: "2005–06",
+    champion: "Barcelona",
+    runnerUp: "Arsenal",
+    winningXI: [
+        { number: 1, name: "Víctor Valdés", position: "Guarda-redes" },
+        { number: 23, name: "Oleguer", position: "Defesa" },
+        { number: 4, name: "Rafael Márquez", position: "Defesa" },
+        { number: 5, name: "Carles Puyol", position: "Defesa" },
+        { number: 12, name: "Giovanni van Bronckhorst", position: "Defesa" },
+        { number: 15, name: "Edmílson", position: "Médio" },
+        { number: 17, name: "Mark van Bommel", position: "Médio" },
+        { number: 20, name: "Deco", position: "Médio" },
+        { number: 8, name: "Ludovic Giuly", position: "Avançado" },
+        { number: 9, name: "Samuel Eto'o", position: "Avançado" },
+        { number: 10, name: "Ronaldinho", position: "Avançado" }
+    ]
+},
+{
+    year: "2004–05",
+    champion: "Liverpool",
+    runnerUp: "AC Milan",
+    winningXI: [
+        { number: 1, name: "Jerzy Dudek", position: "Guarda-redes" },
+        { number: 3, name: "Steve Finnan", position: "Defesa" },
+        { number: 23, name: "Jamie Carragher", position: "Defesa" },
+        { number: 4, name: "Sami Hyypiä", position: "Defesa" },
+        { number: 25, name: "Djimi Traoré", position: "Defesa" },
+        { number: 10, name: "Luis García", position: "Médio" },
+        { number: 14, name: "Xabi Alonso", position: "Médio" },
+        { number: 8, name: "Steven Gerrard", position: "Médio" },
+        { number: 6, name: "John Arne Riise", position: "Médio" },
+        { number: 7, name: "Harry Kewell", position: "Avançado" },
+        { number: 5, name: "Milan Baroš", position: "Avançado" }
+    ]
+},
+{
+    year: "2003–04",
+    champion: "FC Porto",
+    runnerUp: "AS Monaco",
+    winningXI: [
+        { number: 99, name: "Vítor Baía", position: "Guarda-redes" },
+        { number: 22, name: "Paulo Ferreira", position: "Defesa" },
+        { number: 2, name: "Jorge Costa", position: "Defesa" },
+        { number: 4, name: "Ricardo Carvalho", position: "Defesa" },
+        { number: 8, name: "Nuno Valente", position: "Defesa" },
+        { number: 6, name: "Costinha", position: "Médio" },
+        { number: 23, name: "Pedro Mendes", position: "Médio" },
+        { number: 18, name: "Maniche", position: "Médio" },
+        { number: 10, name: "Deco", position: "Médio" },
+        { number: 19, name: "Carlos Alberto", position: "Avançado" },
+        { number: 11, name: "Derlei", position: "Avançado" }
+    ]
+},
+{
+    year: "2002–03",
+    champion: "AC Milan",
+    runnerUp: "Juventus",
+    winningXI: [
+        { number: 12, name: "Dida", position: "Guarda-redes" },
+        { number: 19, name: "Alessandro Costacurta", position: "Defesa" },
+        { number: 13, name: "Alessandro Nesta", position: "Defesa" },
+        { number: 3, name: "Paolo Maldini", position: "Defesa" },
+        { number: 4, name: "Kakha Kaladze", position: "Defesa" },
+        { number: 8, name: "Gennaro Gattuso", position: "Médio" },
+        { number: 21, name: "Andrea Pirlo", position: "Médio" },
+        { number: 20, name: "Clarence Seedorf", position: "Médio" },
+        { number: 10, name: "Rui Costa", position: "Médio" },
+        { number: 7, name: "Andriy Shevchenko", position: "Avançado" },
+        { number: 9, name: "Filippo Inzaghi", position: "Avançado" }
+    ]
+},
+{
+    year: "2001–02",
+    champion: "Real Madrid",
+    runnerUp: "Bayer Leverkusen",
+    winningXI: [
+        { number: 13, name: "César Sánchez", position: "Guarda-redes" },
+        { number: 2, name: "Míchel Salgado", position: "Defesa" },
+        { number: 4, name: "Fernando Hierro", position: "Defesa" },
+        { number: 6, name: "Iván Helguera", position: "Defesa" },
+        { number: 3, name: "Roberto Carlos", position: "Defesa" },
+        { number: 24, name: "Claude Makélélé", position: "Médio" },
+        { number: 10, name: "Luís Figo", position: "Médio" },
+        { number: 5, name: "Zinedine Zidane", position: "Médio" },
+        { number: 21, name: "Santiago Solari", position: "Médio" },
+        { number: 7, name: "Raúl González", position: "Avançado" },
+        { number: 9, name: "Fernando Morientes", position: "Avançado" }
+    ]
+},
+{
+    year: "2000–01",
+    champion: "Bayern Munich",
+    runnerUp: "Valencia",
+    winningXI: [
+        { number: 1, name: "Oliver Kahn", position: "Guarda-redes" },
+        { number: 2, name: "Willy Sagnol", position: "Defesa" },
+        { number: 4, name: "Samuel Kuffour", position: "Defesa" },
+        { number: 5, name: "Patrik Andersson", position: "Defesa" },
+        { number: 3, name: "Bixente Lizarazu", position: "Defesa" },
+        { number: 23, name: "Owen Hargreaves", position: "Médio" },
+        { number: 11, name: "Stefan Effenberg", position: "Médio" },
+        { number: 20, name: "Hasan Salihamidžić", position: "Médio" },
+        { number: 7, name: "Mehmet Scholl", position: "Médio" },
+        { number: 9, name: "Giovane Élber", position: "Avançado" },
+        { number: 25, name: "Thomas Linke", position: "Defesa" }
+    ]
+},
+{
+    year: "1999–00",
+    champion: "Real Madrid",
+    runnerUp: "Valencia",
+    winningXI: [
+        { number: 27, name: "Iker Casillas", position: "Guarda-redes" },
+        { number: 2, name: "Míchel Salgado", position: "Defesa" },
+        { number: 18, name: "Aitor Karanka", position: "Defesa" },
+        { number: 15, name: "Iván Helguera", position: "Defesa" },
+        { number: 12, name: "Iván Campo", position: "Defesa" },
+        { number: 3, name: "Roberto Carlos", position: "Defesa" },
+        { number: 6, name: "Fernando Redondo", position: "Médio" },
+        { number: 8, name: "Steve McManaman", position: "Médio" },
+        { number: 7, name: "Raúl González", position: "Médio" },
+        { number: 9, name: "Fernando Morientes", position: "Avançado" },
+        { number: 19, name: "Nicolas Anelka", position: "Avançado" }
+    ]
+},
+{
+    year: "1998–99",
+    champion: "Manchester United",
+    runnerUp: "Bayern Munich",
+    winningXI: [
+        { number: 1, name: "Peter Schmeichel", position: "Guarda-redes" },
+        { number: 2, name: "Gary Neville", position: "Defesa" },
+        { number: 5, name: "Ronny Johnsen", position: "Defesa" },
+        { number: 6, name: "Jaap Stam", position: "Defesa" },
+        { number: 3, name: "Denis Irwin", position: "Defesa" },
+        { number: 7, name: "David Beckham", position: "Médio" },
+        { number: 8, name: "Nicky Butt", position: "Médio" },
+        { number: 11, name: "Ryan Giggs", position: "Médio" },
+        { number: 15, name: "Jesper Blomqvist", position: "Médio" },
+        { number: 19, name: "Dwight Yorke", position: "Avançado" },
+        { number: 9, name: "Andrew Cole", position: "Avançado" }
+    ]
+},
+{
+    year: "1997–98",
+    champion: "Real Madrid",
+    runnerUp: "Juventus",
+    winningXI: [
+        { number: 25, name: "Bodo Illgner", position: "Guarda-redes" },
+        { number: 17, name: "Christian Panucci", position: "Defesa" },
+        { number: 5, name: "Manuel Sanchís", position: "Defesa" },
+        { number: 4, name: "Fernando Hierro", position: "Defesa" },
+        { number: 3, name: "Roberto Carlos", position: "Defesa" },
+        { number: 10, name: "Clarence Seedorf", position: "Médio" },
+        { number: 6, name: "Fernando Redondo", position: "Médio" },
+        { number: 27, name: "Christian Karembeu", position: "Médio" },
+        { number: 7, name: "Raúl González", position: "Médio" },
+        { number: 8, name: "Predrag Mijatović", position: "Avançado" },
+        { number: 15, name: "Fernando Morientes", position: "Avançado" }
+    ]
+},
+{
+    year: "1996–97",
+    champion: "Borussia Dortmund",
+    runnerUp: "Juventus",
+    winningXI: [
+        { number: 1, name: "Stefan Klos", position: "Guarda-redes" },
+        { number: 5, name: "Jürgen Kohler", position: "Defesa" },
+        { number: 6, name: "Matthias Sammer", position: "Defesa" },
+        { number: 16, name: "Martin Kree", position: "Defesa" },
+        { number: 7, name: "Stefan Reuter", position: "Médio" },
+        { number: 14, name: "Paul Lambert", position: "Médio" },
+        { number: 19, name: "Paulo Sousa", position: "Médio" },
+        { number: 17, name: "Jörg Heinrich", position: "Médio" },
+        { number: 10, name: "Andreas Möller", position: "Médio" },
+        { number: 13, name: "Karl-Heinz Riedle", position: "Avançado" },
+        { number: 9, name: "Stéphane Chapuisat", position: "Avançado" }
+    ]
+},
+{
+    year: "1995–96",
+    champion: "Juventus",
+    runnerUp: "Ajax",
+    winningXI: [
+        { number: 1, name: "Angelo Peruzzi", position: "Guarda-redes" },
+        { number: 4, name: "Moreno Torricelli", position: "Defesa" },
+        { number: 2, name: "Ciro Ferrara", position: "Defesa" },
+        { number: 5, name: "Pietro Vierchowod", position: "Defesa" },
+        { number: 3, name: "Gianluca Pessotto", position: "Defesa" },
+        { number: 8, name: "Antonio Conte", position: "Médio" },
+        { number: 6, name: "Paulo Sousa", position: "Médio" },
+        { number: 7, name: "Didier Deschamps", position: "Médio" },
+        { number: 10, name: "Alessandro Del Piero", position: "Avançado" },
+        { number: 9, name: "Gianluca Vialli", position: "Avançado" },
+        { number: 11, name: "Fabrizio Ravanelli", position: "Avançado" }
+    ]
+},
+{
+    year: "1994–95",
+    champion: "Ajax",
+    runnerUp: "AC Milan",
+    winningXI: [
+        { number: 1, name: "Edwin van der Sar", position: "Guarda-redes" },
+        { number: 2, name: "Michael Reiziger", position: "Defesa" },
+        { number: 3, name: "Danny Blind", position: "Defesa" },
+        { number: 4, name: "Frank Rijkaard", position: "Médio" },
+        { number: 5, name: "Frank de Boer", position: "Defesa" },
+        { number: 6, name: "Clarence Seedorf", position: "Médio" },
+        { number: 8, name: "Edgar Davids", position: "Médio" },
+        { number: 10, name: "Jari Litmanen", position: "Médio" },
+        { number: 7, name: "Finidi George", position: "Avançado" },
+        { number: 9, name: "Ronald de Boer", position: "Avançado" },
+        { number: 11, name: "Marc Overmars", position: "Avançado" }
+    ]
+},
+{
+    year: "1993–94",
+    champion: "AC Milan",
+    runnerUp: "Barcelona",
+    winningXI: [
+        { number: 1, name: "Sebastiano Rossi", position: "Guarda-redes" },
+        { number: 2, name: "Mauro Tassotti", position: "Defesa" },
+        { number: 5, name: "Filippo Galli", position: "Defesa" },
+        { number: 6, name: "Paolo Maldini", position: "Defesa" },
+        { number: 3, name: "Christian Panucci", position: "Defesa" },
+        { number: 9, name: "Zvonimir Boban", position: "Médio" },
+        { number: 4, name: "Demetrio Albertini", position: "Médio" },
+        { number: 8, name: "Marcel Desailly", position: "Médio" },
+        { number: 7, name: "Roberto Donadoni", position: "Médio" },
+        { number: 10, name: "Dejan Savićević", position: "Avançado" },
+        { number: 11, name: "Daniele Massaro", position: "Avançado" }
+    ]
+},
+{
+    year: "1992–93",
+    champion: "Olympique de Marseille",
+    runnerUp: "AC Milan",
+    winningXI: [
+        { number: 1, name: "Fabien Barthez", position: "Guarda-redes" },
+        { number: 2, name: "Jocelyn Angloma", position: "Defesa" },
+        { number: 4, name: "Basile Boli", position: "Defesa" },
+        { number: 6, name: "Marcel Desailly", position: "Defesa" },
+        { number: 3, name: "Éric Di Meco", position: "Defesa" },
+        { number: 5, name: "Franck Sauzée", position: "Médio" },
+        { number: 11, name: "Didier Deschamps", position: "Médio" },
+        { number: 7, name: "Jean-Jacques Eydelie", position: "Defesa" },
+        { number: 10, name: "Abedi Pelé", position: "Médio" },
+        { number: 9, name: "Rudi Völler", position: "Médio" },
+        { number: 8, name: "Alen Bokšić", position: "Avançado" }
+    ]
+},
+{ year: "1991–92", champion: "Barcelona", runnerUp: "Sampdoria" },
+{ year: "1990–91", champion: "Estrela Vermelha", runnerUp: "Olympique de Marseille" },
+{ year: "1989–90", champion: "AC Milan", runnerUp: "Benfica" },
+{ year: "1988–89", champion: "AC Milan", runnerUp: "Steaua București" },
+{ year: "1987–88", champion: "PSV Eindhoven", runnerUp: "Benfica" },
+{ year: "1986–87", champion: "FC Porto", runnerUp: "Bayern Munich" },
+{ year: "1985–86", champion: "Steaua București", runnerUp: "Barcelona" },
+{ year: "1984–85", champion: "Juventus", runnerUp: "Liverpool" },
+{ year: "1983–84", champion: "Liverpool", runnerUp: "AS Roma" },
+{ year: "1982–83", champion: "Hamburger SV", runnerUp: "Juventus" },
+{ year: "1981–82", champion: "Aston Villa", runnerUp: "Bayern Munich" },
+{ year: "1980–81", champion: "Liverpool", runnerUp: "Real Madrid" },
+{ year: "1979–80", champion: "Nottingham Forest", runnerUp: "Hamburger SV" },
+{ year: "1978–79", champion: "Nottingham Forest", runnerUp: "Malmö FF" },
+{ year: "1977–78", champion: "Liverpool", runnerUp: "Club Brugge" },
+{ year: "1976–77", champion: "Liverpool", runnerUp: "Borussia Mönchengladbach" },
+{ year: "1975–76", champion: "Bayern Munich", runnerUp: "Saint-Étienne" },
+{ year: "1974–75", champion: "Bayern Munich", runnerUp: "Leeds United" },
+{ year: "1973–74", champion: "Bayern Munich", runnerUp: "Atlético Madrid" },
+{ year: "1972–73", champion: "Ajax", runnerUp: "Juventus" },
+{ year: "1971–72", champion: "Ajax", runnerUp: "Inter Milan" },
+{ year: "1970–71", champion: "Ajax", runnerUp: "Panathinaikos" },
+{ year: "1969–70", champion: "Feyenoord", runnerUp: "Celtic" },
+{ year: "1968–69", champion: "AC Milan", runnerUp: "Ajax" },
+{ year: "1967–68", champion: "Manchester United", runnerUp: "Benfica" },
+{ year: "1966–67", champion: "Celtic", runnerUp: "Inter Milan" },
+{ year: "1965–66", champion: "Real Madrid", runnerUp: "Partizan" },
+{ year: "1964–65", champion: "Inter Milan", runnerUp: "Benfica" },
+{ year: "1963–64", champion: "Inter Milan", runnerUp: "Real Madrid" },
+{ year: "1962–63", champion: "AC Milan", runnerUp: "Benfica" },
+{ year: "1961–62", champion: "Benfica", runnerUp: "Real Madrid" },
+{ year: "1960–61", champion: "Benfica", runnerUp: "Barcelona" },
+{ year: "1959–60", champion: "Real Madrid", runnerUp: "Eintracht Frankfurt" },
+{ year: "1958–59", champion: "Real Madrid", runnerUp: "Stade de Reims" },
+{ year: "1957–58", champion: "Real Madrid", runnerUp: "AC Milan" },
+{ year: "1956–57", champion: "Real Madrid", runnerUp: "Fiorentina" },
+{ year: "1955–56", champion: "Real Madrid", runnerUp: "Stade de Reims" }
+            ]
+        },
+        {
+            id: "club-world-cup",
+            name: "Mundial de Clubes FIFA",
+            category: "Clubes",
+            confederation: "FIFA",
+            crest: "assets/logos/competitions/club-world-cup.png",
+            summary: "Competição internacional que reúne os melhores clubes do mundo.",
+            trophyHistory: "O troféu do Mundial de Clubes FIFA foi concebido para simbolizar a união das diferentes confederações e o topo do futebol de clubes à escala global.",
+            lastEditionParticipants: [
+                "Manchester City",
+                "Real Madrid",
+                "Bayern Munich",
+                "Paris Saint-Germain",
+                "Flamengo",
+                "Palmeiras",
+                "River Plate",
+                "Fluminense",
+                "Chelsea",
+                "Borussia Dortmund",
+                "Inter Milan",
+                "FC Porto",
+                "Atlético Madrid",
+                "Benfica",
+                "Juventus",
+                "Red Bull Salzburg",
+                "Al-Hilal",
+                "Ulsan HD",
+                "Al Ahly",
+                "Wydad Casablanca",
+                "Monterrey",
+                "León",
+                "Boca Juniors",
+                "Botafogo",
+                "Urawa Red Diamonds",
+                "Al Ain",
+                "Espérance de Tunis",
+                "Mamelodi Sundowns",
+                "Pachuca",
+                "Seattle Sounders",
+                "Auckland City",
+                "Inter Miami"
+            ],
+          winners: [
+    {
+        year: "2025",
+        champion: "Chelsea",
+        runnerUp: "Paris Saint-Germain",
+        winningXI: [
+            { number: 1, name: "Robert Sánchez", position: "Guarda-redes" },
+            { number: 27, name: "Malo Gusto", position: "Defesa" },
+            { number: 23, name: "Trevoh Chalobah", position: "Defesa" },
+            { number: 6, name: "Levi Colwill", position: "Defesa" },
+            { number: 3, name: "Marc Cucurella", position: "Defesa" },
+            { number: 24, name: "Reece James", position: "Médio" },
+            { number: 25, name: "Moisés Caicedo", position: "Médio" },
+            { number: 8, name: "Enzo Fernández", position: "Médio" },
+            { number: 7, name: "Pedro Neto", position: "Avançado" },
+            { number: 10, name: "Cole Palmer", position: "Avançado" },
+            { number: 20, name: "João Pedro", position: "Avançado" }
+        ]
+    },
+    {
+        year: "2023",
+        champion: "Manchester City",
+        runnerUp: "Fluminense",
+        winningXI: [
+            { number: 31, name: "Ederson", position: "Guarda-redes" },
+            { number: 2, name: "Kyle Walker", position: "Defesa" },
+            { number: 3, name: "Rúben Dias", position: "Defesa" },
+            { number: 5, name: "John Stones", position: "Defesa" },
+            { number: 6, name: "Nathan Aké", position: "Defesa" },
+            { number: 16, name: "Rodri", position: "Médio" },
+            { number: 82, name: "Rico Lewis", position: "Médio" },
+            { number: 47, name: "Phil Foden", position: "Médio" },
+            { number: 20, name: "Bernardo Silva", position: "Avançado" },
+            { number: 10, name: "Jack Grealish", position: "Avançado" },
+            { number: 19, name: "Julián Álvarez", position: "Avançado" }
+        ]
+    },
+    {
+        year: "2022",
+        champion: "Real Madrid",
+        runnerUp: "Al-Hilal",
+        winningXI: [
+            { number: 13, name: "Andriy Lunin", position: "Guarda-redes" },
+            { number: 2, name: "Dani Carvajal", position: "Defesa" },
+            { number: 22, name: "Antonio Rüdiger", position: "Defesa" },
+            { number: 4, name: "David Alaba", position: "Defesa" },
+            { number: 12, name: "Eduardo Camavinga", position: "Defesa" },
+            { number: 10, name: "Luka Modrić", position: "Médio" },
+            { number: 18, name: "Aurélien Tchouaméni", position: "Médio" },
+            { number: 8, name: "Toni Kroos", position: "Médio" },
+            { number: 15, name: "Federico Valverde", position: "Avançado" },
+            { number: 9, name: "Karim Benzema", position: "Avançado" },
+            { number: 20, name: "Vinícius Júnior", position: "Avançado" }
+        ]
+    },
+    {
+        year: "2021",
+        champion: "Chelsea",
+        runnerUp: "Palmeiras",
+        winningXI: [
+            { number: 16, name: "Édouard Mendy", position: "Guarda-redes" },
+            { number: 28, name: "César Azpilicueta", position: "Defesa" },
+            { number: 6, name: "Thiago Silva", position: "Defesa" },
+            { number: 2, name: "Antonio Rüdiger", position: "Defesa" },
+            { number: 4, name: "Andreas Christensen", position: "Defesa" },
+            { number: 7, name: "N'Golo Kanté", position: "Médio" },
+            { number: 8, name: "Mateo Kovačić", position: "Médio" },
+            { number: 20, name: "Callum Hudson-Odoi", position: "Médio" },
+            { number: 19, name: "Mason Mount", position: "Médio" },
+            { number: 29, name: "Kai Havertz", position: "Médio" },
+            { number: 9, name: "Romelu Lukaku", position: "Avançado" }
+        ]
+    },
+    {
+    year: "2020",
+    champion: "Bayern de Munique",
+    runnerUp: "Tigres UANL",
+    winningXI: [
+        { number: 1, name: "Manuel Neuer", position: "Guarda-redes" },
+        { number: 5, name: "Benjamin Pavard", position: "Defesa" },
+        { number: 4, name: "Niklas Süle", position: "Defesa" },
+        { number: 21, name: "Lucas Hernández", position: "Defesa" },
+        { number: 19, name: "Alphonso Davies", position: "Defesa" },
+        { number: 6, name: "Joshua Kimmich", position: "Médio" },
+        { number: 27, name: "David Alaba", position: "Médio" },
+        { number: 10, name: "Leroy Sané", position: "Avançado" },
+        { number: 7, name: "Serge Gnabry", position: "Médio" },
+        { number: 29, name: "Kingsley Coman", position: "Avançado" },
+        { number: 9, name: "Robert Lewandowski", position: "Avançado" }
+    ]
+},
+{
+    year: "2019",
+    champion: "Liverpool",
+    runnerUp: "Flamengo",
+    winningXI: [
+        { number: 1, name: "Alisson Becker", position: "Guarda-redes" },
+        { number: 66, name: "Trent Alexander-Arnold", position: "Defesa" },
+        { number: 4, name: "Virgil van Dijk", position: "Defesa" },
+        { number: 12, name: "Joe Gomez", position: "Defesa" },
+        { number: 26, name: "Andrew Robertson", position: "Defesa" },
+        { number: 15, name: "Alex Oxlade-Chamberlain", position: "Médio" },
+        { number: 14, name: "Jordan Henderson", position: "Médio" },
+        { number: 8, name: "Naby Keïta", position: "Médio" },
+        { number: 11, name: "Mohamed Salah", position: "Avançado" },
+        { number: 9, name: "Roberto Firmino", position: "Avançado" },
+        { number: 10, name: "Sadio Mané", position: "Avançado" }
+    ]
+},
+{
+    year: "2018",
+    champion: "Real Madrid",
+    runnerUp: "Al-Ain",
+    winningXI: [
+        { number: 25, name: "Thibaut Courtois", position: "Guarda-redes" },
+        { number: 2, name: "Dani Carvajal", position: "Defesa" },
+        { number: 5, name: "Raphaël Varane", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 12, name: "Marcelo", position: "Defesa" },
+        { number: 10, name: "Luka Modrić", position: "Médio" },
+        { number: 18, name: "Marcos Llorente", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 17, name: "Lucas Vázquez", position: "Avançado" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 11, name: "Gareth Bale", position: "Avançado" }
+    ]
+},
+{
+    year: "2017",
+    champion: "Real Madrid",
+    runnerUp: "Grémio",
+    winningXI: [
+        { number: 1, name: "Keylor Navas", position: "Guarda-redes" },
+        { number: 2, name: "Dani Carvajal", position: "Defesa" },
+        { number: 5, name: "Raphaël Varane", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 12, name: "Marcelo", position: "Defesa" },
+        { number: 10, name: "Luka Modrić", position: "Médio" },
+        { number: 14, name: "Casemiro", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 22, name: "Isco", position: "Avançado" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Avançado" }
+    ]
+},
+{
+    year: "2016",
+    champion: "Real Madrid",
+    runnerUp: "Kashima Antlers",
+    winningXI: [
+        { number: 1, name: "Keylor Navas", position: "Guarda-redes" },
+        { number: 2, name: "Dani Carvajal", position: "Defesa" },
+        { number: 5, name: "Raphaël Varane", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 12, name: "Marcelo", position: "Defesa" },
+        { number: 19, name: "Luka Modrić", position: "Médio" },
+        { number: 14, name: "Casemiro", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 17, name: "Lucas Vázquez", position: "Avançado" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Avançado" }
+    ]
+},
+{
+    year: "2015",
+    champion: "Barcelona",
+    runnerUp: "River Plate",
+    winningXI: [
+        { number: 13, name: "Claudio Bravo", position: "Guarda-redes" },
+        { number: 6, name: "Dani Alves", position: "Defesa" },
+        { number: 3, name: "Gerard Piqué", position: "Defesa" },
+        { number: 14, name: "Javier Mascherano", position: "Defesa" },
+        { number: 18, name: "Jordi Alba", position: "Defesa" },
+        { number: 4, name: "Ivan Rakitić", position: "Médio" },
+        { number: 5, name: "Sergio Busquets", position: "Médio" },
+        { number: 8, name: "Andrés Iniesta", position: "Médio" },
+        { number: 10, name: "Lionel Messi", position: "Avançado" },
+        { number: 9, name: "Luis Suárez", position: "Avançado" },
+        { number: 11, name: "Neymar", position: "Avançado" }
+    ]
+},
+{
+    year: "2014",
+    champion: "Real Madrid",
+    runnerUp: "San Lorenzo",
+    winningXI: [
+        { number: 1, name: "Iker Casillas", position: "Guarda-redes" },
+        { number: 15, name: "Dani Carvajal", position: "Defesa" },
+        { number: 3, name: "Pepe", position: "Defesa" },
+        { number: 4, name: "Sergio Ramos", position: "Defesa" },
+        { number: 12, name: "Marcelo", position: "Defesa" },
+        { number: 23, name: "Isco", position: "Médio" },
+        { number: 8, name: "Toni Kroos", position: "Médio" },
+        { number: 10, name: "James Rodríguez", position: "Médio" },
+        { number: 11, name: "Gareth Bale", position: "Avançado" },
+        { number: 9, name: "Karim Benzema", position: "Avançado" },
+        { number: 7, name: "Cristiano Ronaldo", position: "Avançado" }
+    ]
+},
+{
+    year: "2013",
+    champion: "Bayern de Munique",
+    runnerUp: "Raja Casablanca",
+    winningXI: [
+        { number: 1, name: "Manuel Neuer", position: "Guarda-redes" },
+        { number: 13, name: "Rafinha", position: "Defesa" },
+        { number: 17, name: "Jérôme Boateng", position: "Defesa" },
+        { number: 4, name: "Dante", position: "Defesa" },
+        { number: 27, name: "David Alaba", position: "Defesa" },
+        { number: 21, name: "Philipp Lahm", position: "Médio" },
+        { number: 6, name: "Thiago Alcântara", position: "Médio" },
+        { number: 39, name: "Toni Kroos", position: "Médio" },
+        { number: 11, name: "Xherdan Shaqiri", position: "Avançado" },
+        { number: 25, name: "Thomas Müller", position: "Avançado" },
+        { number: 7, name: "Franck Ribéry", position: "Avançado" }
+    ]
+},
+{
+    year: "2012",
+    champion: "Corinthians",
+    runnerUp: "Chelsea",
+    winningXI: [
+        { number: 12, name: "Cássio", position: "Guarda-redes" },
+        { number: 2, name: "Alessandro", position: "Defesa" },
+        { number: 3, name: "Chicão", position: "Defesa" },
+        { number: 13, name: "Paulo André", position: "Defesa" },
+        { number: 6, name: "Fábio Santos", position: "Defesa" },
+        { number: 5, name: "Ralf", position: "Médio" },
+        { number: 8, name: "Paulinho", position: "Médio" },
+        { number: 20, name: "Danilo", position: "Médio" },
+        { number: 11, name: "Emerson Sheik", position: "Avançado" },
+        { number: 23, name: "Jorge Henrique", position: "Médio" },
+        { number: 9, name: "Paolo Guerrero", position: "Avançado" }
+    ]
+},
+{
+    year: "2011",
+    champion: "Barcelona",
+    runnerUp: "Santos",
+    winningXI: [
+        { number: 1, name: "Víctor Valdés", position: "Guarda-redes" },
+        { number: 2, name: "Dani Alves", position: "Defesa" },
+        { number: 3, name: "Gerard Piqué", position: "Defesa" },
+        { number: 5, name: "Carles Puyol", position: "Defesa" },
+        { number: 22, name: "Éric Abidal", position: "Defesa" },
+        { number: 16, name: "Sergio Busquets", position: "Médio" },
+        { number: 6, name: "Xavi Hernández", position: "Médio" },
+        { number: 11, name: "Thiago Alcântara", position: "Avançado" },
+        { number: 10, name: "Lionel Messi", position: "Avançado" },
+        { number: 4, name: "Cesc Fàbregas", position: "Avançado" },
+        { number: 8, name: "Andrés Iniesta", position: "Médio" }
+    ]
+},
+{
+    year: "2010",
+    champion: "Inter de Milão",
+    runnerUp: "TP Mazembe",
+    winningXI: [
+        { number: 1, name: "Júlio César", position: "Guarda-redes" },
+        { number: 4, name: "Javier Zanetti", position: "Médio" },
+        { number: 6, name: "Lúcio", position: "Defesa" },
+        { number: 2, name: "Iván Córdoba", position: "Defesa" },
+        { number: 26, name: "Cristian Chivu", position: "Defesa" },
+        { number: 19, name: "Esteban Cambiasso", position: "Médio" },
+        { number: 8, name: "Thiago Motta", position: "Médio" },
+        { number: 27, name: "Goran Pandev", position: "Avançado" },
+        { number: 13, name: "Maicon", position: "Defesa" },
+        { number: 9, name: "Samuel Eto'o", position: "Avançado" },
+        { number: 22, name: "Diego Milito", position: "Avançado" }
+    ]
+},
+{
+    year: "2009",
+    champion: "Barcelona",
+    runnerUp: "Estudiantes",
+    winningXI: [
+        { number: 1, name: "Víctor Valdés", position: "Guarda-redes" },
+        { number: 2, name: "Dani Alves", position: "Defesa" },
+        { number: 3, name: "Gerard Piqué", position: "Defesa" },
+        { number: 5, name: "Carles Puyol", position: "Defesa" },
+        { number: 22, name: "Éric Abidal", position: "Defesa" },
+        { number: 16, name: "Sergio Busquets", position: "Médio" },
+        { number: 6, name: "Xavi Hernández", position: "Médio" },
+        { number: 15, name: "Seydou Keita", position: "Médio" },
+        { number: 10, name: "Lionel Messi", position: "Avançado" },
+        { number: 9, name: "Zlatan Ibrahimović", position: "Avançado" },
+        { number: 14, name: "Thierry Henry", position: "Avançado" }
+    ]
+},
+{ year: "2008", champion: "Manchester United", runnerUp: "LDU Quito" },
+{ year: "2007", champion: "AC Milan", runnerUp: "Boca Juniors" },
+{ year: "2006", champion: "Internacional", runnerUp: "Barcelona" },
+{ year: "2005", champion: "São Paulo", runnerUp: "Liverpool" },
+{ year: "2000", champion: "Corinthians", runnerUp: "Vasco da Gama" }
+]
+        },
+        {
+            id: "europa-league",
+            name: "UEFA Europa League",
+            category: "Clubes",
+            confederation: "UEFA",
+            crest: "assets/logos/competitions/europa-league.png",
+            summary: "Segunda principal competição europeia de clubes, herdeira da Taça UEFA.",
+            trophyHistory: "Criada originalmente como Taça das Cidades com Feiras e depois Taça UEFA, passou a chamar-se UEFA Europa League em 2009–10, com um troféu em prata que se mantém entre os mais pesados da UEFA.",
+            lastEditionTeams: [
+                "Manchester United",
+                "Tottenham",
+                "AS Roma",
+                "FC Porto",
+                "Athletic Bilbao"
+            ],
+            winners: [
+                {
+    year: "2025–26",
+    champion: "Aston Villa",
+    runnerUp: "SC Freiburg",
+    winningXI: [
+        { number: 23, name: "Emiliano Martínez", position: "Guarda-redes" },
+        { number: 2, name: "Matty Cash", position: "Defesa" },
+        { number: 4, name: "Ezri Konsa", position: "Defesa" },
+        { number: 14, name: "Pau Torres", position: "Defesa" },
+        { number: 12, name: "Lucas Digne", position: "Defesa" },
+        { number: 3, name: "Victor Lindelof", position: "Médio" },
+        { number: 8, name: "Youri Tielemans", position: "Médio" },
+        { number: 7, name: "John McGinn", position: "Avançado" },
+        { number: 27, name: "Morgan Rogers", position: "Médio" },
+        { number: 10, name: "Emiliano Buéndia", position: "Avançado" },
+        { number: 11, name: "Ollie Watkins", position: "Avançado" }
+    ]
+},
+{
+    year: "2024–25",
+    champion: "Tottenham Hotspur",
+    runnerUp: "Manchester United",
+    winningXI: [
+        { number: 1, name: "Guglielmo Vicario", position: "Guarda-redes" },
+        { number: 23, name: "Pedro Porro", position: "Defesa" },
+        { number: 17, name: "Cristian Romero", position: "Defesa" },
+        { number: 37, name: "Micky van de Ven", position: "Defesa" },
+        { number: 13, name: "Destiny Udogie", position: "Defesa" },
+        { number: 8, name: "Yves Bissouma", position: "Médio" },
+        { number: 30, name: "Rodrigo Bentancur", position: "Médio" },
+        { number: 29, name: "Pape Matar Sarr", position: "Médio" },
+        { number: 22, name: "Brennan Johnson", position: "Avançado" },
+        { number: 19, name: "Dominic Solanke", position: "Avançado" },
+        { number: 9, name: "Richarlison", position: "Avançado" }
+    ]
+},
+{
+    year: "2023–24",
+    champion: "Atalanta",
+    runnerUp: "Bayer Leverkusen",
+    winningXI: [
+        { number: 1, name: "Juan Musso", position: "Guarda-redes" },
+        { number: 19, name: "Berat Djimsiti", position: "Defesa" },
+        { number: 4, name: "Isak Hien", position: "Defesa" },
+        { number: 23, name: "Sead Kolašinac", position: "Defesa" },
+        { number: 77, name: "Davide Zappacosta", position: "Defesa" },
+        { number: 13, name: "Éderson", position: "Médio" },
+        { number: 7, name: "Teun Koopmeiners", position: "Médio" },
+        { number: 22, name: "Matteo Ruggeri", position: "Defesa" },
+        { number: 17, name: "Charles De Ketelaere", position: "Avançado" },
+        { number: 90, name: "Gianluca Scamacca", position: "Avançado" },
+        { number: 11, name: "Ademola Lookman", position: "Avançado" }
+    ]
+},
+{
+    year: "2022–23",
+    champion: "Sevilla",
+    runnerUp: "AS Roma",
+    winningXI: [
+        { number: 13, name: "Yassine Bounou", position: "Guarda-redes" },
+        { number: 16, name: "Jesús Navas", position: "Defesa" },
+        { number: 44, name: "Loïc Badé", position: "Defesa" },
+        { number: 6, name: "Nemanja Gudelj", position: "Defesa" },
+        { number: 3, name: "Alex Telles", position: "Defesa" },
+        { number: 20, name: "Fernando", position: "Médio" },
+        { number: 10, name: "Ivan Rakitić", position: "Médio" },
+        { number: 55, name: "Lucas Ocampos", position: "Avançado" },
+        { number: 21, name: "Óliver Torres", position: "Médio" },
+        { number: 25, name: "Bryan Gil", position: "Avançado" },
+        { number: 15, name: "Youssef En-Nesyri", position: "Avançado" }
+    ]
+}
+            ]
+        },
+        {
+            id: "conference-league",
+            name: "UEFA Conference League",
+            category: "Clubes",
+            confederation: "UEFA",
+            crest: "assets/logos/competitions/conference-league.png",
+            summary: "Terceira competição europeia anual de clubes organizada pela UEFA.",
+            trophyHistory: "Lançada em 2021 para ampliar a participação europeia de clubes de várias ligas, o seu troféu apresenta hastes espiraladas inspiradas na dinâmica de um jogo de futebol.",
+            lastEditionTeams: [
+                "Chelsea",
+                "Fiorentina",
+                "Real Betis"
+            ],
+            winners: [
+                {
+                    year: "2023–24",
+                    champion: "Olympiacos",
+                    runnerUp: "Fiorentina",
+                    winningXI: []
+                }
+            ]
+        },
+
+        /* LIGAS NACIONAIS */
+        {
+            id: "liga-portugal",
+            name: "Liga Portugal Betclic",
+            category: "Clubes",
+            confederation: "FPF",
+            crest: "assets/logos/competitions/liga-portugal.png",
+            summary: "Principal escalão do futebol profissional em Portugal.",
+            trophyHistory: "A taça atribuída ao campeão nacional representa o título máximo do futebol português, disputado desde a década de 1930.",
+            lastEditionTeams: [
+                "Sporting CP",
+                "Benfica",
+                "FC Porto"
+            ],
+            winners: [
+                {
+                    year: "2023–24",
+                    champion: "Sporting CP",
+                    runnerUp: "Benfica",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "premier-league",
+            name: "Premier League",
+            category: "Clubes",
+            confederation: "FA",
+            crest: "assets/logos/competitions/premier-league.png",
+            summary: "A primeira divisão do futebol profissional inglês.",
+            trophyHistory: "O troféu da Premier League é composto por uma coroa de ouro e uma base em malaquita, tendo sido criado em 2001 pelo joalheiro real Garrard.",
+            lastEditionTeams: [
+                "Manchester City",
+                "Arsenal",
+                "Liverpool",
+                "Manchester United",
+                "Chelsea",
+                "Tottenham"
+            ],
+            winners: [
+                {
+                    year: "2023–24",
+                    champion: "Manchester City",
+                    runnerUp: "Arsenal",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "la-liga",
+            name: "La Liga EA Sports",
+            category: "Clubes",
+            confederation: "RFEF",
+            crest: "assets/logos/competitions/la-liga.png",
+            summary: "Principal campeonato de futebol profissional em Espanha.",
+            trophyHistory: "O troféu oficial de La Liga, em prata e com a inscrição do campeonato, simboliza o título máximo do futebol espanhol.",
+            lastEditionTeams: [
+                "Real Madrid",
+                "Barcelona",
+                "Atlético Madrid"
+            ],
+            winners: [
+                {
+                    year: "2023–24",
+                    champion: "Real Madrid",
+                    runnerUp: "Barcelona",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "serie-a",
+            name: "Serie A Enilive",
+            category: "Clubes",
+            confederation: "FIGC",
+            crest: "assets/logos/competitions/serie-a.png",
+            summary: "Principal divisão do futebol italiano, cujo vencedor conquista o Scudetto.",
+            trophyHistory: "Além da taça entregue ao campeão, o título é assinalado na camisola pelo emblema do Scudetto com as cores da bandeira italiana.",
+            lastEditionTeams: [
+                "Inter de Milão",
+                "AC Milan",
+                "Juventus",
+                "Napoli"
+            ],
+            winners: [
+                {
+                    year: "2023–24",
+                    champion: "Inter de Milão",
+                    runnerUp: "AC Milan",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "bundesliga",
+            name: "Bundesliga",
+            category: "Clubes",
+            confederation: "DFB",
+            crest: "assets/logos/competitions/bundesliga.png",
+            summary: "Principal escalão do futebol profissional na Alemanha.",
+            trophyHistory: "O troféu da Bundesliga é a célebre 'Meisterschale' (salva de prata), atribuída desde 1949 e gravada com os nomes dos campeões alemães.",
+            lastEditionTeams: [
+                "Bayern de Munique",
+                "Borussia Dortmund",
+                "Bayer Leverkusen"
+            ],
+            winners: [
+                {
+                    year: "2023–24",
+                    champion: "Bayer Leverkusen",
+                    runnerUp: "VfB Stuttgart",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "ligue-1",
+            name: "Ligue 1 McDonald's",
+            category: "Clubes",
+            confederation: "FFF",
+            crest: "assets/logos/competitions/ligue-1.png",
+            summary: "Principal divisão do futebol profissional em França.",
+            trophyHistory: "O troféu 'L'Hexagoal', criado em 2007, representa o formato geométrico do território francês e distingue o campeão da Ligue 1.",
+            lastEditionTeams: [
+                "PSG",
+                "Marseille"
+            ],
+            winners: [
+                {
+                    year: "2023–24",
+                    champion: "PSG",
+                    runnerUp: "AS Monaco",
+                    winningXI: []
+                }
+            ]
+        },
+
+        /* COMPETIÇÕES DE SELEÇÕES */
+        {
+            id: "world-cup",
+            name: "Campeonato do Mundo FIFA",
+            category: "Seleções",
+            confederation: "FIFA",
+            crest: "assets/logos/competitions/world-cup.png",
+            summary: "A maior competição mundial de seleções nacionais.",
+            trophyHistory: "O troféu atual da Taça do Mundo FIFA, em ouro de 18 quilates sobre base de malaquita, foi desenhado por Silvio Gazzaniga e estreou em 1974, sucedendo à Taça Jules Rimet.",
+            lastEditionTeams: [
+                "Argentina",
+                "França",
+                "Inglaterra",
+                "Espanha",
+                "Portugal",
+                "Brasil",
+                "Alemanha",
+                "Bélgica",
+                "Holanda",
+                "Itália"
+            ],
+            winners: [
+                {
+                    year: "2022",
+                    champion: "Argentina",
+                    runnerUp: "França",
+                    winningXI: [
+                        { number: 23, name: "Emiliano Martínez", position: "Guarda-redes" },
+                        { number: 26, name: "Nahuel Molina", position: "Defesa" },
+                        { number: 13, name: "Cristian Romero", position: "Defesa" },
+                        { number: 19, name: "Nicolás Otamendi", position: "Defesa" },
+                        { number: 3, name: "Nicolás Tagliafico", position: "Defesa" },
+                        { number: 7, name: "Rodrigo De Paul", position: "Médio" },
+                        { number: 24, name: "Enzo Fernández", position: "Médio" },
+                        { number: 20, name: "Alexis Mac Allister", position: "Médio" },
+                        { number: 11, name: "Ángel Di María", position: "Avançado" },
+                        { number: 10, name: "Lionel Messi", position: "Avançado" },
+                        { number: 9, name: "Julián Álvarez", position: "Avançado" }
+                    ]
+                }
+            ]
+        },
+        {
+            id: "euro",
+            name: "Campeonato da Europa (UEFA Euro)",
+            category: "Seleções",
+            confederation: "UEFA",
+            crest: "assets/logos/competitions/euro.png",
+            summary: "Torneio continental disputado pelas seleções nacionais da UEFA.",
+            trophyHistory: "A Taça Henri Delaunay, batizada em honra do primeiro secretário-geral da UEFA, foi redesenhada em 2008 em prata esterlina para ganhar maior dimensão e destaque.",
+            lastEditionTeams: [
+                "Espanha",
+                "Inglaterra",
+                "França",
+                "Alemanha",
+                "Portugal",
+                "Holanda",
+                "Itália",
+                "Bélgica"
+            ],
+            winners: [
+                {
+                    year: "2024",
+                    champion: "Espanha",
+                    runnerUp: "Inglaterra",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "nations-league",
+            name: "UEFA Nations League",
+            category: "Seleções",
+            confederation: "UEFA",
+            crest: "assets/logos/competitions/nations-league.png",
+            summary: "Competição oficial bienal entre as seleções nacionais filiadas na UEFA.",
+            trophyHistory: "O troféu da UEFA Nations League combina linhas geométricas modernas com o emblema da UEFA, simbolizando as federações europeias unidas em torno da taça.",
+            lastEditionTeams: [
+                "Espanha",
+                "Portugal",
+                "França",
+                "Alemanha",
+                "Itália",
+                "Holanda",
+                "Bélgica"
+            ],
+            winners: [
+                {
+                    year: "2022–23",
+                    champion: "Espanha",
+                    runnerUp: "Croácia",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "copa-america",
+            name: "CONMEBOL Copa América",
+            category: "Seleções",
+            confederation: "CONMEBOL",
+            crest: "assets/logos/competitions/copa-america.png",
+            summary: "A mais antiga competição de seleções do mundo, disputada na América do Sul.",
+            trophyHistory: "O troféu original foi oferecido pelo Ministério das Relações Exteriores da Argentina em 1916 e fabricado em Buenos Aires, mantendo-se como símbolo histórico do futebol sul-americano.",
+            lastEditionTeams: [
+                "Argentina",
+                "Brasil"
+            ],
+            winners: [
+                {
+                    year: "2024",
+                    champion: "Argentina",
+                    runnerUp: "Colômbia",
+                    winningXI: []
+                }
+            ]
+        },
+        {
+            id: "finalissima",
+            name: "Finalíssima (CONMEBOL–UEFA Cup of Champions)",
+            category: "Seleções",
+            confederation: "CONMEBOL / UEFA",
+            crest: "assets/logos/competitions/finalissima.png",
+            summary: "Jogo oficial entre a seleção campeã da Copa América e a campeã do Campeonato da Europa (UEFA Euro).",
+            trophyHistory: "Disputada originalmente como Taça Artemio Franchi em 1985 e 1993, a prova regressou em 2022 sob a designação de Finalíssima, opondo os campeões continentais da CONMEBOL e da UEFA.",
+            lastEditionTeams: [
+                "Argentina",
+                "Itália"
+            ],
+            winners: [
+                {
+                    year: "2022",
+                    champion: "Argentina",
+                    runnerUp: "Itália",
+                    winningXI: [
+                        { number: 23, name: "Emiliano Martínez", position: "Guarda-redes" },
+                        { number: 16, name: "Nahuel Molina", position: "Defesa" },
+                        { number: 13, name: "Cristian Romero", position: "Defesa" },
+                        { number: 19, name: "Nicolás Otamendi", position: "Defesa" },
+                        { number: 3, name: "Nicolás Tagliafico", position: "Defesa" },
+                        { number: 18, name: "Guido Rodríguez", position: "Médio" },
+                        { number: 7, name: "Rodrigo De Paul", position: "Médio" },
+                        { number: 20, name: "Giovani Lo Celso", position: "Médio" },
+                        { number: 10, name: "Lionel Messi", position: "Avançado" },
+                        { number: 22, name: "Lautaro Martínez", position: "Avançado" },
+                        { number: 11, name: "Ángel Di María", position: "Avançado" }
+                    ]
+                }
+            ]
+        }
     ]
 }

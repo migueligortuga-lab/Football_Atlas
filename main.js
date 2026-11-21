@@ -738,3 +738,331 @@ if (
         });
     }
 }
+
+/* COMPETIÇÕES — LISTAGEM */
+
+const competitionsGrid = document.getElementById("competitions-grid");
+const competitionCategoryButtons = document.querySelectorAll(".filter-btn[data-category]");
+const competitionSearch = document.getElementById("competition-search");
+const competitionSort = document.getElementById("competition-sort");
+
+if (
+    competitionsGrid &&
+    typeof FOOTBALL_ATLAS_DATA !== "undefined" &&
+    Array.isArray(FOOTBALL_ATLAS_DATA.competitions)
+) {
+    let activeCategory = "ALL";
+    let competitionSearchTerm = "";
+
+    const updateAllCompetitionsCount = () => {
+        const allBtn = document.querySelector('.filter-btn[data-category="ALL"]');
+        if (allBtn) {
+            allBtn.textContent = `Todas (${FOOTBALL_ATLAS_DATA.competitions.length})`;
+        }
+    };
+
+    const renderCompetitionsList = () => {
+        const query = competitionSearchTerm.trim().toLowerCase();
+
+        const filtered = FOOTBALL_ATLAS_DATA.competitions.filter((comp) => {
+            if (!comp || typeof comp !== "object") return false;
+
+            const category = (comp.category || "").toLowerCase();
+            const matchesCategory =
+                activeCategory === "ALL" || category === activeCategory.toLowerCase();
+
+            const nameMatch = (comp.name || "").toLowerCase().includes(query);
+            const confMatch = (comp.confederation || "").toLowerCase().includes(query);
+            const summaryMatch = (comp.summary || "").toLowerCase().includes(query);
+            const matchesQuery = !query || nameMatch || confMatch || summaryMatch;
+
+            return matchesCategory && matchesQuery;
+        });
+
+        const sortBy = competitionSort ? competitionSort.value : "default";
+
+        const sorted = [...filtered].sort((a, b) => {
+            const nameA = a.name || "";
+            const nameB = b.name || "";
+
+            if (sortBy === "name-asc") return nameA.localeCompare(nameB, "pt");
+            if (sortBy === "name-desc") return nameB.localeCompare(nameA, "pt");
+            return 0;
+        });
+
+        if (sorted.length === 0) {
+            competitionsGrid.innerHTML =
+                '<p class="empty-state">Nenhuma competição encontrada com esse filtro.</p>';
+            return;
+        }
+
+        competitionsGrid.innerHTML = sorted
+            .map((comp) => {
+                const safeId = encodeURIComponent(comp.id || "");
+                const safeName = comp.name || "Competição";
+                const safeCategory = comp.category || "Competição";
+                const safeConf = comp.confederation || "";
+                const safeSummary = comp.summary || "";
+                const crestSrc = comp.crest ? `../${comp.crest}` : "";
+                const badgeText = safeConf ? `${safeCategory} · ${safeConf}` : safeCategory;
+                const winnersCount = Array.isArray(comp.winners) ? comp.winners.length : 0;
+
+                return `
+                    <a href="competition.html?id=${safeId}" class="country-card">
+                        <div class="country-card-top">
+                            <img src="${crestSrc}" alt="Logótipo de ${safeName}" class="country-crest" loading="lazy" onerror="this.style.visibility='hidden'">
+                            <span class="country-badge">${badgeText}</span>
+                        </div>
+
+                        <div class="country-card-body">
+                            <h2>${safeName}</h2>
+                            <p>${safeSummary}</p>
+                        </div>
+
+                        <div class="country-card-meta">
+                            <span><strong>${winnersCount}</strong> ${winnersCount === 1 ? "edição registada" : "edições registadas"}</span>
+                        </div>
+                    </a>
+                `;
+            })
+            .join("");
+    };
+
+    competitionCategoryButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            competitionCategoryButtons.forEach((b) => b.classList.remove("is-active"));
+            btn.classList.add("is-active");
+            activeCategory = btn.dataset.category || "ALL";
+            renderCompetitionsList();
+        });
+    });
+
+    if (competitionSearch) {
+        competitionSearch.addEventListener("input", (e) => {
+            competitionSearchTerm = e.target.value;
+            renderCompetitionsList();
+        });
+    }
+
+    if (competitionSort) {
+        competitionSort.addEventListener("change", renderCompetitionsList);
+    }
+
+    updateAllCompetitionsCount();
+    renderCompetitionsList();
+}
+
+/* COMPETIÇÃO — PÁGINA INDIVIDUAL */
+
+const competitionDetail = document.getElementById("competition-detail");
+
+const renderWinningXISimple = (winningXI) => {
+    if (!Array.isArray(winningXI) || winningXI.length === 0) {
+        return `<p class="muted-note">XI vencedor não registado para esta edição.</p>`;
+    }
+
+    const groups = typeof CLUB_POSITION_GROUPS !== "undefined" ? CLUB_POSITION_GROUPS : [];
+
+    const groupsHtml = groups
+        .map((group) => {
+            const players = winningXI.filter((p) => group.match(p.position || ""));
+            if (players.length === 0) return "";
+
+            return `
+                <div class="squad-position-group">
+                    <h4>${group.label}</h4>
+                    <div class="squad-list squad-list--stacked">
+                        ${players
+                            .map(
+                                (player) => `
+                                <div class="squad-entry">
+                                    <div class="squad-item">
+                                        <span class="squad-number">#${player.number ?? "-"}</span>
+                                        <div class="squad-main-text">
+                                            <strong>${player.name || "Jogador"}</strong>
+                                            <small>${player.position || "Posição"}</small>
+                                        </div>
+                                    </div>
+                                </div>`
+                            )
+                            .join("")}
+                    </div>
+                </div>
+            `;
+        })
+        .filter(Boolean)
+        .join("");
+
+    const remaining = winningXI.filter(
+        (p) => !groups.some((group) => group.match(p.position || ""))
+    );
+
+    const remainingHtml =
+        remaining.length > 0
+            ? `
+                <div class="squad-position-group">
+                    <h4>Outros:</h4>
+                    <div class="squad-list squad-list--stacked">
+                        ${remaining
+                            .map(
+                                (player) => `
+                                <div class="squad-entry">
+                                    <div class="squad-item">
+                                        <span class="squad-number">#${player.number ?? "-"}</span>
+                                        <div class="squad-main-text">
+                                            <strong>${player.name || "Jogador"}</strong>
+                                            <small>${player.position || "Posição"}</small>
+                                        </div>
+                                    </div>
+                                </div>`
+                            )
+                            .join("")}
+                    </div>
+                </div>`
+            : "";
+
+    return `<div class="squad-groups">${groupsHtml}${remainingHtml}</div>`;
+};
+
+const renderCompetitionWinners = (winners) => {
+    if (!Array.isArray(winners) || winners.length === 0) {
+        return `<p class="muted-note">Histórico de vencedores em atualização.</p>`;
+    }
+
+    return winners
+        .map((entry, idx) => {
+            const runnerUpHtml = entry.runnerUp
+                ? `<small class="muted-note">Vice: ${entry.runnerUp}</small>`
+                : "";
+
+            const hasWinningXI =
+                Array.isArray(entry.winningXI) && entry.winningXI.length > 0;
+
+            const xiButtonHtml = hasWinningXI
+                ? `
+                    <button
+                        type="button"
+                        class="secondary-button toggle-champion-xi-btn"
+                        aria-expanded="false"
+                        aria-controls="champion-xi-${idx}"
+                    >
+                        Ver XI vencedor
+                    </button>
+                `
+                : "";
+
+            const xiPanelHtml = hasWinningXI
+                ? `
+                    <div id="champion-xi-${idx}" class="champion-xi-panel" hidden>
+                        ${renderWinningXISimple(entry.winningXI)}
+                    </div>
+                `
+                : "";
+
+            return `
+                <article class="detail-card detail-card--wide winner-edition-card">
+                    <div class="winner-edition-row">
+                        <div>
+                            <strong>${entry.year || ""}</strong> — <span>${entry.champion || ""}</span>
+                            ${runnerUpHtml}
+                        </div>
+                        ${xiButtonHtml}
+                    </div>
+                    ${xiPanelHtml}
+                </article>
+            `;
+        })
+        .join("");
+};
+
+if (
+    competitionDetail &&
+    typeof FOOTBALL_ATLAS_DATA !== "undefined" &&
+    Array.isArray(FOOTBALL_ATLAS_DATA.competitions)
+) {
+    const params = new URLSearchParams(window.location.search);
+    const competitionId = params.get("id");
+    const competition = FOOTBALL_ATLAS_DATA.competitions.find((c) => c.id === competitionId);
+
+    if (!competition) {
+        competitionDetail.innerHTML = `
+            <div class="detail-empty">
+                <h1>Competição não encontrada</h1>
+                <p>A competição pedida não existe na base de dados.</p>
+                <a class="primary-button" href="competitions.html">Voltar às Competições</a>
+            </div>
+        `;
+    } else {
+        document.title = `${competition.name} | Football Atlas`;
+
+        const crestSrc = competition.crest ? `../${competition.crest}` : "";
+        const category = competition.category || "Competição";
+        const conf = competition.confederation || "";
+        const badgeText = conf ? `${category} · ${conf}` : category;
+
+const teamsList = Array.isArray(competition.lastEditionParticipants)
+            ? competition.lastEditionParticipants
+            : Array.isArray(competition.lastEditionTeams)
+              ? competition.lastEditionTeams
+              : Array.isArray(competition.teams)
+                ? competition.teams
+                : [];
+
+        const teamsHtml =
+            teamsList.length > 0
+                ? `<div class="tag-list">
+                    ${teamsList.map((team) => `<span class="info-pill">${team}</span>`).join("")}
+                   </div>`
+                : `<p class="muted-note">Participantes da última edição em atualização.</p>`;
+
+        const trophyHistoryHtml = competition.trophyHistory
+            ? `<p>${competition.trophyHistory}</p>`
+            : `<p class="muted-note">História do troféu em atualização.</p>`;
+
+        competitionDetail.innerHTML = `
+            <div class="detail-container">
+                <a href="competitions.html" class="back-link">← Voltar a todas as competições</a>
+
+                <header class="country-hero-card">
+                    <img src="${crestSrc}" alt="Logótipo de ${competition.name}" class="detail-crest" onerror="this.style.visibility='hidden'">
+                    <div>
+                        <span class="country-badge">${badgeText}</span>
+                        <h1>${competition.name}</h1>
+                        <p>${competition.summary || competition.description || ""}</p>
+                    </div>
+                </header>
+
+                <div class="detail-grid">
+                    <article class="detail-card detail-card--wide">
+                        <h2>História do Troféu</h2>
+                        ${trophyHistoryHtml}
+                    </article>
+
+                    <article class="detail-card detail-card--wide">
+                        <h2>Participantes da Última Edição</h2>
+                        ${teamsHtml}
+                    </article>
+
+                    <div class="detail-card--wide">
+                        <h2>Vencedores por Ano</h2>
+                        ${renderCompetitionWinners(competition.winners)}
+                    </div>
+                </div>
+            </div>
+        `;
+
+        competitionDetail.addEventListener("click", (event) => {
+            const btn = event.target.closest(".toggle-champion-xi-btn");
+            if (!btn) return;
+
+            const panelId = btn.getAttribute("aria-controls");
+            const panel = panelId ? document.getElementById(panelId) : null;
+            if (!panel) return;
+
+            const isOpen = btn.getAttribute("aria-expanded") === "true";
+            btn.setAttribute("aria-expanded", String(!isOpen));
+            panel.hidden = isOpen;
+            btn.textContent = !isOpen ? "Ocultar XI vencedor" : "Ver XI vencedor";
+        });
+    }
+}
